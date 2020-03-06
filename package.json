@@ -1,0 +1,53 @@
+{
+  "name": "ntp-client-promise",
+  "version": "1.0.0",
+  "description": "Promise based Net Time Protocol (NTP) client",
+  "main": "index.js",
+  "repository": "https://github.com/xxhax-team/ntp-client-promise",
+  "homepage": "https://github.com/xxhax-team/ntp-client-promise#readme",
+  "readme": "https://github.com/xxhax-team/ntp-client-promise#readme",
+  "prettier": {
+    "useTabs": false,
+    "tabWidth": 2,
+    "semi": false
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": false
+    },
+    "parserOptions": {
+      "ecmaVersion": 2015,
+      "sourceType": "script"
+    },
+    "extends": [
+      "airbnb-base",
+      "prettier",
+      "plugin:prettier/recommended"
+    ],
+    "rules": {
+      "prettier/prettier": "error"
+    },
+    "root": true,
+    "plugins": [
+      "prettier",
+      "imports"
+    ]
+  },
+  "author": "XXHAX Team <putin@xxhax.com>",
+  "license": "GPL-3.0",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}
