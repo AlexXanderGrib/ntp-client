@@ -1,7 +1,8 @@
 {
   "name": "ntp-client-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Promise based Net Time Protocol (NTP) client",
+  "types": "./index.d.ts",
   "main": "index.js",
   "repository": "https://github.com/xxhax-team/ntp-client-promise",
   "homepage": "https://github.com/xxhax-team/ntp-client-promise#readme",

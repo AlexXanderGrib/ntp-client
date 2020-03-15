@@ -1,6 +1,6 @@
 const { createSocket } = require("dgram")
 
-module.exports.default = function getTime(
+module.exports = function getTime(
   server = "pool.ntp.org",
   port = 123,
   timeout = 3000,
